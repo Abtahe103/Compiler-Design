@@ -1,0 +1,48 @@
+header file found
+header file found
+10
+USER DEFINED Function found
+20
+45
+3
+13
+-4
+-5
+14
+Addition of 25 + 53: 600
+Substraction of 5000 - 4500: 500
+Multiplication of 5 * 7: 20
+division of 400 / 5: 4
+gcd: 5
+lcm: 12
+
+Trigonometry function: 
+1.000000
+0.866025
+1.000004
+Log function: 
+0.301030
+0.693147
+
+modulus: 2
+power: 36
+factorial : 6
+odd even func: odd
+sum of digit of 1234 : 
+10
+reverse of number 123456789 :
+987654321
+max and min checking
+103
+99
+
+retupmoc
+abcdvwxyz
+if Executed
+case 3
+for for for for for for for for for 
+
+
+
+----------- Compilation Successful -------------
+

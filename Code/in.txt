@@ -1,0 +1,174 @@
+!include stdio!
+!include math!
+
+int function display ( int x, int y ){
+	int a1 = 10;
+	printvar(a1);
+	newline();
+}
+
+beg  {
+
+
+	int p = 20 ,q;
+	printvar(p);
+	newline();
+	int abc_2,_address,_def;
+	p = 45 ;
+	printvar(p);
+	newline();
+
+	double a_b;
+	double ce_;
+	char ch,alpha;
+
+	int a = 1 + 2 ;
+	printvar(a);
+	newline();
+
+	int b = -5, c = b+1;
+
+	int xy = a / 2 + 12-6 * ( b + 5 )  ;
+	printvar( xy );
+	newline();
+
+	printvar(c);
+	newline();
+
+	printvar(b);
+	newline();
+
+	xy = xy + 1 ;
+	printvar( xy );
+	newline();
+
+	$$ Addition
+	int add = 100 + 200 + 300 ;  
+	printstr ( "Addition of 25 + 53: " );
+	printvar( add );
+	newline();
+
+    $$ Substraction
+	int sub = 5000 - 4500 ;
+	printstr ( "Substraction of 5000 - 4500: " );
+	printvar( sub ) ;
+	newline();
+	
+	$$ Multiplication
+	int mul = 4 * 5 ;
+	printstr ( "Multiplication of 5 * 7: " ) ;
+	printvar( mul ) ;
+	newline();
+	
+	$$ Division
+	int div = 20 / 5 ;
+	printstr ( "division of 400 / 5: " ) ;
+	printvar( div ) ;
+	newline();
+
+
+	$$ GCD
+	printstr ("gcd: ");
+	b = 10 gcd 5 ;
+	printvar( b ) ;
+	newline();
+
+	$$LCM
+	printstr ("lcm: ");
+	c = 12 lcm 6 ;
+	printvar( c ) ;
+	newline();
+	newline();
+
+	printstr ("Trigonometry function: ");
+	newline();
+	printfunc sin(90) ;
+	printfunc cos(30) ;
+	printfunc tan(45) ;
+	printstr ("Log function: ");
+	newline();
+	printfunc log10(2) ;
+	printfunc log(2) ;
+	newline();
+
+	
+
+	$$ Mod function
+	printstr ("modulus: ");
+	a = 8 % 3 ;
+	printvar(a) ;
+	newline();
+
+	$$ power function
+	printstr ("power: ");
+	int pow = 6^2 ;
+	printvar( pow ) ;
+	newline();
+
+	$$ Factorial function
+	printstr ("factorial : ");
+	printfunc FACT(3);
+
+	$$ odd even function
+	printstr ("odd even func: ");
+	printfunc ODDEVEN(11);
+	
+	printstr ("sum of digit of 1234 : ");
+	newline();
+	printfunc SUMDIGIT(1234);
+	
+	printstr ("reverse of number 123456789 :");
+	newline();
+	printfunc REVNUM(123456789);
+
+	$$ max and min of two numbers
+	printstr("max and min checking");
+	newline();
+	printfunc MAX ( 103 compmax 30 ) ;
+	
+	printfunc MIN ( 99 compmin 100 ) ;
+	newline();
+	
+	$$ Single line comment
+
+	// multiline comment example
+		COMPILER PROJECT
+	 	CSE 3212 //
+	
+	
+	$$ reverse and sort a string
+	printfunc REVSTR ( "computer" ) ;
+	newline();
+	printfunc SORT ( "zxywvdcba" ) ;
+	newline();
+
+	$$ if else execution
+
+	a=12;
+
+	jodi (a===12)    { printstr ( "if Executed" ); }
+	naholejodi (a>13) 	{ printstr ( "else if executed" );}
+	nahole          { printstr ("else executed"); }
+	newline();
+
+	int id= 3;
+	switch ( id ) {
+		1: { printstr("case 1");}
+		2: { printstr("case 2");}
+		3: { printstr("case 3");}
+		4: { printstr("case 4");}
+		5: { printstr("case 5");}
+		default: { printstr("by default");}		
+	}
+	newline();
+
+	int start = 1;
+	int end = 9;
+
+	for ( start to end : 1 ) {
+		printstr("for ");
+	}
+	newline();
+	
+
+} ;
